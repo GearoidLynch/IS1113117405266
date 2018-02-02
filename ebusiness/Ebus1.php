@@ -5,7 +5,7 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src"cost_calc.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     
     <body>
@@ -50,7 +50,7 @@
           </form>
           
           </br>
-          <button onClick="calSub()">Calculate Cost</button>
+          <button onClick="calcSub()">Calculate Cost</button>
           <a role="button" href="Ebus1.php">Clear Choice</a>
           
           
