@@ -1,16 +1,30 @@
 #section1{
+    background-image: url("http://spain.com/wp-content/uploads/spain_home_featured_01.jpg") ;
+
+   background-repeat:no-repeat;
+
+   background-size:cover;
     background-color: rgb(238, 0, 90);
+    text-align: center;
+    color: White;
 }
 
 #section2{
+    background-image: url("https://image3.mouthshut.com/images/imagesp/925748114s.jpg") ;
     background-color: rgb(44, 62, 80);
+     background-repeat:no-repeat;
+
+   background-size:cover;
+    text-align: center;
+    color: Black;
 }
 
 #section3{
-    background-color: rgb(51, 153, 204);
-}
+    background-image: url("http://www.decioviaggi.com/wp-content/uploads/2018/02/n.jpg") ;
+     background-repeat:no-repeat;
 
-.section{
+   background-size:cover;
+    background-color: rgb(51, 153, 204);
     text-align: center;
-    color: white;
+    color: Green; 
 }
