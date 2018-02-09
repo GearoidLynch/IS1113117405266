@@ -1,5 +1,5 @@
 #section1{
-    background-image: url("http://spain.com/wp-content/uploads/spain_home_featured_01.jpg") ;
+    background-image: url("http://www.happycow.net/blog/wp-content/uploads/2014/07/barcelona-spain.jpg") ;
 
    background-repeat:no-repeat;
 
@@ -20,11 +20,12 @@
 }
 
 #section3{
-    background-image: url("http://www.decioviaggi.com/wp-content/uploads/2018/02/n.jpg") ;
+    background-image: url("https://www.newyorkpass.com/siteimg/attrlist/358.jpg") ;
      background-repeat:no-repeat;
 
    background-size:cover;
     background-color: rgb(51, 153, 204);
     text-align: center;
-    color: Green; 
+    vertical-align: text-top;
+    color: White; 
 }
