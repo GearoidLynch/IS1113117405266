@@ -31,7 +31,7 @@
 }
 
 #cloudsection1{
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/8/83/Salesforce_logo.svg/1200px-Salesforce_logo.svg.png") ;
+  background-image: url("https://cdn-images-1.medium.com/max/1200/1*5z515NEIVf8I1p6KqI1EtQ.png") ;
      background-repeat:no-repeat;
 
    background-size:cover;
@@ -42,7 +42,7 @@
 }
 
 #cloudsection2{
-    background-image: url("http://www.stickpng.com/assets/images/5847eb34cef1014c0b5e484b.png") ;
+    background-image: url("https://cdn-images-1.medium.com/max/512/1*uc-REJYHbk02nuzVQmDHHQ.png") ;
      background-repeat:no-repeat;
 
    background-size:cover;
@@ -60,4 +60,43 @@
     text-align: center;
     vertical-align: text-top;
     color: Black;
+}
+
+#cloudsection4{
+     background-image: url("https://pbs.twimg.com/profile_images/839721704163155970/LI_TRk1z.jpg") ;
+     background-repeat:no-repeat;
+   background-size:cover;
+    background-color: rgb(51, 153, 204);
+    text-align: center;
+    vertical-align: text-top;
+    color: Black;
+}
+
+#sportsection1{
+     background-image: url("https://sportconcussion.com.au/wp-content/uploads/2016/02/afl.jpg") ;
+     background-repeat:no-repeat;
+   background-size:cover;
+    background-color: rgb(51, 153, 204);
+    text-align: center;
+    vertical-align: text-top;
+    color: Black;
+}
+
+#sportsection2{
+    background-image: url("https://www.irishtimes.com/polopoly_fs/1.3383713.1518028351!/image/image.jpg_gen/derivatives/box_620_330/image.jpg") ;
+     background-repeat:no-repeat;
+   background-size:cover;
+    background-color: rgb(51, 153, 204);
+    text-align: center;
+    vertical-align: text-top;
+    color: white;
+}
+#sportsection3{
+    background-image: url("https://cdn-jpg.si.com/sites/default/files/2014/08/rugby-conversion-800.jpg") ;
+     background-repeat:no-repeat;
+   background-size:cover;
+    background-color: rgb(51, 153, 204);
+    text-align: center;
+    vertical-align: text-top;
+    color: white;
 }
