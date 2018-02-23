@@ -19,8 +19,8 @@ header{
 
 .infopara{
     color: black;
-    width: 750px;
     text-align: center;
-        border-color: grey;
+    border-color: grey;
     border-style: groove;
+    width: 750px;
 }
