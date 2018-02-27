@@ -1,52 +1,64 @@
 <?php
-// Start the session
+// start the session
 session_start();
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
-        
-        <title> Enter Details</title>
-        
-        
+        <title>Enter Details</title>
+         <link rel="stylesheet" href="ebusiness.css" type="text/css"/>
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="Ebus2_validator.js"></script>
     </head>
-    
     <body>
+         <header>
+        <br/>
+        <h1 class="heading">Silver Lining Ltd.</h1>
+        <br/>
+        <br/>
+        </header>
+        <h3 class="heading">Please enter your payment details</h3>
         
-        <h4>Please enter your payment details.</h4>
+        <div class="centered"> 
         
-            <br />
+        <form action="Ebus3.php" method="POST">
             
-            <form method = "POST" action = "Ebus3.php">
-                
-                <label for="user_pin">
-                     PIN 
-                </label>
-                
-                <input type="password" id="user_pin" placeholder="Card Pin" maxlength="4">
-                    
-                <button type="Submit" id="btnPurchase" disabled> 
-                    Proceed with Purchase 
-                </button>
-                
+            <label for="user_name">Name</label>
+            <input type="name" id="user_name" placeholder="Name" maxlength="35"/>
+            
+            <br/>
+            
+            <label for="user_email">Email Address</label>
+            <input type="email" id="user_email" placeholder="Joeblogs@example.com" maxlength="40"
+            
+            <br/>
+            
+             <label for="user_pin">PIN</label>
+             <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+             
+
+                <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+             
+               <?php
+            // set session variables
+            $_SESSION["user_name"] = $_POST["user_name"];
+            ?>
+            
+            <?php
+            $_SESSION["total"] = $_POST["total"];
+            ?>
+              
             </form>
             
-            <br />
+            <br/>
+            <button onClick="validateDetails()">Validate</button>
             
-            <button onClick="validateDetails()"> Validate </button>
+          
+       
+        </div>
         
-        
-        <?php
-        // Set session variables
-        $_SESSION["total"] = $_POST["total"];
-        ?>
-        
+        <script type="text/javascript" src="Ebus2_validator.js"></script></div>
+           
     </body>
-    
-    
-    
 </html>
-
