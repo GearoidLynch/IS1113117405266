@@ -14,7 +14,7 @@ session_start();
         <br/>
         <br/>
         </header>
-        <h4 class="heading">RECIEPT</h4>
+        <h4 class="heading">RECEIPT</h4>
         <div class="centered">
             
              <?php
@@ -33,13 +33,17 @@ session_start();
         <?php
         echo "Customer Email: " . $_SESSION["user_email"] . ".";
         ?>
-    
-    <br/>
+        
+        <br/>
         
         <?php
-        echo "Total is " . $_SESSION["total"] . ".";
+        echo "Total is $" . $_SESSION["total"] . ".";
         ?>
-            
+        
+        <br/>
+        
+        <a href="../cloudservices.html"><button>Return to Homepage</button></a>
+        
         </div>
            
     </body>
